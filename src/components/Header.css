@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: rgba(216, 31, 124, 0.247);
+    margin-bottom: 1rem;
+}
+
+.header img {
+    width: 10rem;
+    border-style: double;
+    border-width: 1rem;
+}
+
+.header p {
+    font-size: 1.5rem;
+    border-style: groove;
+    border-width: 0.5rem;
+}
