@@ -17,7 +17,6 @@ function PostList(props) {
                             />
                 })
             }
-            
         </div>
     );
 }
