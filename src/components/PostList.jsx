@@ -15,12 +15,11 @@ function PostList(props) {
                             body={post.body}
                             key={index}
                             />
-
                 })
             }
             
         </div>
-    )
+    );
 }
 
 export default PostList;
