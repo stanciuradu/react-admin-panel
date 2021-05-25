@@ -5,7 +5,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Hind Madurai', sans-serif;
+  font-family: "Hind Madurai", sans-serif;
 }
 
 .app .container {
@@ -18,14 +18,18 @@ body {
   border: none;
   cursor: pointer;
   margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 
 .container .button {
-  border-radius: 20px;
+  color: rgb(55, 113, 238);
   font-size: 1rem;
-  border: none;
+  width: 10rem;
+  height: 2.5rem;
   cursor: pointer;
   margin-right: 1rem;
-  background-color: blue;
-  border-style: solid;
+  background-color: rgba(255, 0, 221, 0.178);
+}
+.container .button:hover {
+  background-color: rgb(80, 55, 23);
 }
